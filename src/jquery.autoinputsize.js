@@ -47,7 +47,7 @@
   }
   
   setWidthAndHeight = function(el) {
-    el.css({ 'width': el.width() + 'px', 'height': el.height() + 'px'});
+    el.css({ 'width': el.outerWidth() + 'px', 'height': el.outerHeight() + 'px'});
     el.data('original-font-size', el.css('font-size'));
   }
   
