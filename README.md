@@ -10,4 +10,4 @@ Usage
 -----
 Just add the 'autoinputsize' class to your text inputs, like so:
 
-    <input type="text" class="autoinputsize">I will resize automatically</input>
+    <input type="text" class="autoinputsize" value="I will resize automatically" />
